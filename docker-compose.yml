@@ -1,5 +1,5 @@
 gluetun-qbittorrent-port-manager:
-  image: patrickaclark/gluetun-qbittorrent-port-manager:latest
+  image: thetaylorlee/gluetun-qbittorrent-port-manager:latest
   restart: unless-stopped
   network_mode: service:gluetun
   environment:
