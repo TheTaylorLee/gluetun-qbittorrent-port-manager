@@ -45,4 +45,4 @@ jobs:
           push: true
           tags: |
             ghcr.io/thetaylorlee/gluetun-qbittorrent-port-manager-${{ env.tag }}
-            ghcr.io/thetaylorlee/gluetun-qbittorrent-port-manager:latest
+            ghcr.io/thetaylorlee/gluetun-qbittorrent-port-manager
