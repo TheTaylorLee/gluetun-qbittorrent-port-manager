@@ -42,7 +42,7 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: .
-          file: Dockerfile.alpine3.17-amd64
+          file: Dockerfile
           platforms: linux/amd64
           push: true
           tags: |
