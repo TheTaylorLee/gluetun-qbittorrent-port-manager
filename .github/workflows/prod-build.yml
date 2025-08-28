@@ -44,5 +44,5 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/thetaylorlee/gluetun-qbittorrent-port-manager-${{ env.tag }}
-            ghcr.io/thetaylorlee/gluetun-qbittorrent-port-manager
+            ghcr.io/thetaylorlee/gluetun-qbittorrent-port-manager:${{ env.tag }}
+            ghcr.io/thetaylorlee/gluetun-qbittorrent-port-manager:latest
